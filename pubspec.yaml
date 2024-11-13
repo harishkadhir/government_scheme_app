@@ -1,0 +1,33 @@
+name: government_scheme_app
+description: A Flutter app for displaying government schemes.
+
+publish_to: 'none' # Remove this line if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.11.0 # Firebase core for initializing Firebase
+  cloud_firestore: ^4.7.0 # Firestore database
+  url_launcher: ^6.0.20 # For launching URLs
+  fluttertoast: ^8.2.2 # For toast notifications
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # For linting rules
+  flutter_launcher_icons: ^0.11.0 # For setting the app icon
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/icon.jpeg  # Path to your asset image
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.jpeg"  # Path to your custom app icon

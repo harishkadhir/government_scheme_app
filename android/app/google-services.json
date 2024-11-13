@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "327589863812",
+    "project_id": "govscheme-a548b",
+    "storage_bucket": "govscheme-a548b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327589863812:android:76486b55e7d75d5da17dd1",
+        "android_client_info": {
+          "package_name": "com.example.government_scheme_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4kgWUcIxB-PSSGcTCVD0E_6nJ5b8_-vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
